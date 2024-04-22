@@ -1,0 +1,5 @@
+The models were trained on the HCC-TACE-Seg dataset (https://www.cancerimagingarchive.net/collection/hcc-tace-seg/).
+
+These are three randomly picked examples taken from the dataset.
+
+Moawad, A. W., Fuentes, D., Morshid, A., Khalaf, A. M., Elmohr, M. M., Abusaif, A., Hazle, J. D., Kaseb, A. O., Hassan, M., Mahvash, A., Szklaruk, J., Qayyom, A., & Elsayes, K. (2021). Multimodality annotated HCC cases with and without advanced imaging segmentation [Data set]. The Cancer Imaging Archive. https://doi.org/10.7937/TCIA.5FNA-0924
