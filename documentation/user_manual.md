@@ -58,14 +58,3 @@ Using this tool consists of four simple steps:
 
 4. **Generate AI diagnostic report**. Lastly, clicking the 'Generate summary' button can generate an GPT-generated summary report for the image. 
 
-
-## Main Features
-
-This tool consists of two main features:
-
-* **Liver and tumor segmentation**. Given a 3D CT scan, two pre-trained deep learning model are run sequentially, one generating segmentation of liver and the other generaitng segmentation of tumor within the liver. These models were developed in-house using ~100 patients from the [HCC-TASE-Seg dataset](https://www.cancerimagingarchive.net/collection/hcc-tace-seg/). The models achieved 0.954 dice score for lung segmentation and 0.570 dice score for tumor segmentation. The source code of model development can be found under ```model_development/run_best_model_notebook.ipynb```. 
-
-* **AI-generated summary report**. Given the segmented liver and tumor masks, the model extracts tumor descriptors including leiosn size (cm), lesion, shape, lesion density, and involvement of adjacent organs. These information are given to a GPT model to generate a summary of lung cancer diagnosis.
-
-
-
