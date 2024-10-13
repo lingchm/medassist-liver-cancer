@@ -4,8 +4,8 @@ import gradio as gr
 import torch
 import monai 
 import morphsnakes as ms
-from utils.sliding_window import sw_inference
-from utils.tumor_features import generate_features
+from src.sliding_window import sw_inference
+from src.tumor_features import generate_features
 from monai.networks.nets import SegResNetVAE
 from monai.transforms import (
     LoadImage, Orientation, Compose, ToTensor, Activations, 
