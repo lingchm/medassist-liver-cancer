@@ -21,10 +21,14 @@ This tool consists of two main features:
 
 ## Cite
 ```
-@article{wang2024livertumor,
-  title = {A Holistic Weakly Supervised Approach for Liver Tumor Segmentation with Clinical Knowledge-Informed Label Smoothing},
-  author = {Wang, Hairong and Mao, Lingchao and Zhang, Zihan and Li, Jing},
-  journal = {IISE Transactions on Healthcare Systems Engineering (in preparation)},
+@article{wang2024holisticweaklysupervisedapproach,
+      title={A Holistic Weakly Supervised Approach for Liver Tumor Segmentation with Clinical Knowledge-Informed Label Smoothing}, 
+      author={Hairong Wang and Lingchao Mao and Zihan Zhang and Jing Li},
+      year={2024},
+      eprint={2410.10005},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2410.10005}, 
 }
 ```
 
